@@ -1,0 +1,14 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="dark">
+
+    <ion-buttons *ngIf="isNotLogin" slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+
+    <ion-title>{{headertitle}}</ion-title>
+
+    <ion-thumbnail slot="end">
+      <img class="logo-header" src="../../../assets/img/Logo.jpeg" alt="">
+    </ion-thumbnail>
+  </ion-toolbar>
+</ion-header>

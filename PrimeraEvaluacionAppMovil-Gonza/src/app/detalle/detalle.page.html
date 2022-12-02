@@ -1,0 +1,16 @@
+<app-header [isNotLogin]="isNotLogin" [headertitle]="headertitle"></app-header>
+
+<ion-content>
+  <ion-card>
+    <img [src]="usuario.imagen" alt="">
+
+    <ion-card-header>
+      <ion-card-title>{{usuario.nombre}}</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-card-subtitle>Carrera</ion-card-subtitle>
+      <ion-text><p>{{usuario.carrera}}</p></ion-text>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
